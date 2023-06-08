@@ -25,7 +25,7 @@ struct ResultsView: View {
     let amount: Double
     let baseCurrency: String
     
-    let appID = "c2777d252ea744cc9b2da210c93b7862"
+    let appID = "YOUR_API_CODE"
     
     var body: some View {
         Group {
