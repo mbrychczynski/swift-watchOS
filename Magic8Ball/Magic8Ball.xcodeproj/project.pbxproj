@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1827322A499FA500E74172 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1827312A499FA400E74172 /* WidgetKit.framework */; };
+		FF1827342A499FA500E74172 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1827332A499FA500E74172 /* SwiftUI.framework */; };
+		FF1827372A499FA500E74172 /* ComplicationBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1827362A499FA500E74172 /* ComplicationBundle.swift */; };
+		FF1827392A499FA500E74172 /* ComplicationLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1827382A499FA500E74172 /* ComplicationLiveActivity.swift */; };
+		FF18273B2A499FA500E74172 /* Complication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF18273A2A499FA500E74172 /* Complication.swift */; };
+		FF18273D2A499FA600E74172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF18273C2A499FA600E74172 /* Assets.xcassets */; };
+		FFF5EAE22A49965D005BEEF4 /* Magic8Ball Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FFF5EAE12A49965D005BEEF4 /* Magic8Ball Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FFF5EAE72A49965D005BEEF4 /* Magic8BallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5EAE62A49965D005BEEF4 /* Magic8BallApp.swift */; };
+		FFF5EAE92A49965D005BEEF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF5EAE82A49965D005BEEF4 /* ContentView.swift */; };
+		FFF5EAEB2A499660005BEEF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF5EAEA2A499660005BEEF4 /* Assets.xcassets */; };
+		FFF5EAEE2A499660005BEEF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF5EAED2A499660005BEEF4 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFF5EAE32A49965D005BEEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFF5EAD52A49965C005BEEF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF5EAE02A49965D005BEEF4;
+			remoteInfo = "Magic8Ball Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFF5EAF42A499660005BEEF4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FFF5EAE22A49965D005BEEF4 /* Magic8Ball Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF18272F2A499FA400E74172 /* ComplicationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ComplicationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1827312A499FA400E74172 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		FF1827332A499FA500E74172 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FF1827362A499FA500E74172 /* ComplicationBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationBundle.swift; sourceTree = "<group>"; };
+		FF1827382A499FA500E74172 /* ComplicationLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationLiveActivity.swift; sourceTree = "<group>"; };
+		FF18273A2A499FA500E74172 /* Complication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complication.swift; sourceTree = "<group>"; };
+		FF18273C2A499FA600E74172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF18273E2A499FA600E74172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF5EADB2A49965D005BEEF4 /* Magic8Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magic8Ball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF5EAE12A49965D005BEEF4 /* Magic8Ball Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic8Ball Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFF5EAE62A49965D005BEEF4 /* Magic8BallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic8BallApp.swift; sourceTree = "<group>"; };
+		FFF5EAE82A49965D005BEEF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFF5EAEA2A499660005BEEF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFF5EAED2A499660005BEEF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF18272C2A499FA400E74172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1827342A499FA500E74172 /* SwiftUI.framework in Frameworks */,
+				FF1827322A499FA500E74172 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF5EADE2A49965D005BEEF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF1827302A499FA400E74172 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1827312A499FA400E74172 /* WidgetKit.framework */,
+				FF1827332A499FA500E74172 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF1827352A499FA500E74172 /* Complication */ = {
+			isa = PBXGroup;
+			children = (
+				FF1827362A499FA500E74172 /* ComplicationBundle.swift */,
+				FF1827382A499FA500E74172 /* ComplicationLiveActivity.swift */,
+				FF18273A2A499FA500E74172 /* Complication.swift */,
+				FF18273C2A499FA600E74172 /* Assets.xcassets */,
+				FF18273E2A499FA600E74172 /* Info.plist */,
+			);
+			path = Complication;
+			sourceTree = "<group>";
+		};
+		FFF5EAD42A49965C005BEEF4 = {
+			isa = PBXGroup;
+			children = (
+				FFF5EAE52A49965D005BEEF4 /* Magic8Ball Watch App */,
+				FF1827352A499FA500E74172 /* Complication */,
+				FF1827302A499FA400E74172 /* Frameworks */,
+				FFF5EADC2A49965D005BEEF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFF5EADC2A49965D005BEEF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5EADB2A49965D005BEEF4 /* Magic8Ball.app */,
+				FFF5EAE12A49965D005BEEF4 /* Magic8Ball Watch App.app */,
+				FF18272F2A499FA400E74172 /* ComplicationExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF5EAE52A49965D005BEEF4 /* Magic8Ball Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5EAE62A49965D005BEEF4 /* Magic8BallApp.swift */,
+				FFF5EAE82A49965D005BEEF4 /* ContentView.swift */,
+				FFF5EAEA2A499660005BEEF4 /* Assets.xcassets */,
+				FFF5EAEC2A499660005BEEF4 /* Preview Content */,
+			);
+			path = "Magic8Ball Watch App";
+			sourceTree = "<group>";
+		};
+		FFF5EAEC2A499660005BEEF4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFF5EAED2A499660005BEEF4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF18272E2A499FA400E74172 /* ComplicationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1827412A499FA600E74172 /* Build configuration list for PBXNativeTarget "ComplicationExtension" */;
+			buildPhases = (
+				FF18272B2A499FA400E74172 /* Sources */,
+				FF18272C2A499FA400E74172 /* Frameworks */,
+				FF18272D2A499FA400E74172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComplicationExtension;
+			productName = ComplicationExtension;
+			productReference = FF18272F2A499FA400E74172 /* ComplicationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FFF5EADA2A49965D005BEEF4 /* Magic8Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF5EAF52A499660005BEEF4 /* Build configuration list for PBXNativeTarget "Magic8Ball" */;
+			buildPhases = (
+				FFF5EAD92A49965D005BEEF4 /* Resources */,
+				FFF5EAF42A499660005BEEF4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFF5EAE42A49965D005BEEF4 /* PBXTargetDependency */,
+			);
+			name = Magic8Ball;
+			productName = Magic8Ball;
+			productReference = FFF5EADB2A49965D005BEEF4 /* Magic8Ball.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		FFF5EAE02A49965D005BEEF4 /* Magic8Ball Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF5EAF12A499660005BEEF4 /* Build configuration list for PBXNativeTarget "Magic8Ball Watch App" */;
+			buildPhases = (
+				FFF5EADD2A49965D005BEEF4 /* Sources */,
+				FFF5EADE2A49965D005BEEF4 /* Frameworks */,
+				FFF5EADF2A49965D005BEEF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magic8Ball Watch App";
+			productName = "Magic8Ball Watch App";
+			productReference = FFF5EAE12A49965D005BEEF4 /* Magic8Ball Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFF5EAD52A49965C005BEEF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FF18272E2A499FA400E74172 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FFF5EADA2A49965D005BEEF4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FFF5EAE02A49965D005BEEF4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FFF5EAD82A49965C005BEEF4 /* Build configuration list for PBXProject "Magic8Ball" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFF5EAD42A49965C005BEEF4;
+			productRefGroup = FFF5EADC2A49965D005BEEF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFF5EADA2A49965D005BEEF4 /* Magic8Ball */,
+				FFF5EAE02A49965D005BEEF4 /* Magic8Ball Watch App */,
+				FF18272E2A499FA400E74172 /* ComplicationExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF18272D2A499FA400E74172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF18273D2A499FA600E74172 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF5EAD92A49965D005BEEF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF5EADF2A49965D005BEEF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF5EAEE2A499660005BEEF4 /* Preview Assets.xcassets in Resources */,
+				FFF5EAEB2A499660005BEEF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF18272B2A499FA400E74172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1827392A499FA500E74172 /* ComplicationLiveActivity.swift in Sources */,
+				FF18273B2A499FA500E74172 /* Complication.swift in Sources */,
+				FF1827372A499FA500E74172 /* ComplicationBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF5EADD2A49965D005BEEF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF5EAE92A49965D005BEEF4 /* ContentView.swift in Sources */,
+				FFF5EAE72A49965D005BEEF4 /* Magic8BallApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFF5EAE42A49965D005BEEF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFF5EAE02A49965D005BEEF4 /* Magic8Ball Watch App */;
+			targetProxy = FFF5EAE32A49965D005BEEF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF18273F2A499FA600E74172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Complication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Complication;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brychczynski.Complication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF1827402A499FA600E74172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Complication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Complication;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brychczynski.Complication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFF5EAEF2A499660005BEEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFF5EAF02A499660005BEEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FFF5EAF22A499660005BEEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magic8Ball Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Magic8Ball;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brychczynski.Magic8Ball.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		FFF5EAF32A499660005BEEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magic8Ball Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Magic8Ball;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brychczynski.Magic8Ball.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		FFF5EAF62A499660005BEEF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				INFOPLIST_KEY_CFBundleDisplayName = Magic8Ball;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brychczynski.Magic8Ball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FFF5EAF72A499660005BEEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				INFOPLIST_KEY_CFBundleDisplayName = Magic8Ball;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brychczynski.Magic8Ball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1827412A499FA600E74172 /* Build configuration list for PBXNativeTarget "ComplicationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF18273F2A499FA600E74172 /* Debug */,
+				FF1827402A499FA600E74172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF5EAD82A49965C005BEEF4 /* Build configuration list for PBXProject "Magic8Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF5EAEF2A499660005BEEF4 /* Debug */,
+				FFF5EAF02A499660005BEEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF5EAF12A499660005BEEF4 /* Build configuration list for PBXNativeTarget "Magic8Ball Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF5EAF22A499660005BEEF4 /* Debug */,
+				FFF5EAF32A499660005BEEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF5EAF52A499660005BEEF4 /* Build configuration list for PBXNativeTarget "Magic8Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF5EAF62A499660005BEEF4 /* Debug */,
+				FFF5EAF72A499660005BEEF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFF5EAD52A49965C005BEEF4 /* Project object */;
+}
