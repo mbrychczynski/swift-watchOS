@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1827C12A49EBFE00E74172 /* ColorSpin Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FF1827C02A49EBFE00E74172 /* ColorSpin Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF1827C62A49EBFE00E74172 /* ColorSpinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1827C52A49EBFE00E74172 /* ColorSpinApp.swift */; };
+		FF1827C82A49EBFE00E74172 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1827C72A49EBFE00E74172 /* ContentView.swift */; };
+		FF1827CA2A49EC0100E74172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1827C92A49EC0100E74172 /* Assets.xcassets */; };
+		FF1827CD2A49EC0100E74172 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1827CC2A49EC0100E74172 /* Preview Assets.xcassets */; };
+		FF1827D82A49ECAB00E74172 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1827D72A49ECAB00E74172 /* GameScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF1827C22A49EBFE00E74172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1827B42A49EBFE00E74172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1827BF2A49EBFE00E74172;
+			remoteInfo = "ColorSpin Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF1827D32A49EC0100E74172 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FF1827C12A49EBFE00E74172 /* ColorSpin Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF1827BA2A49EBFE00E74172 /* ColorSpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1827C02A49EBFE00E74172 /* ColorSpin Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorSpin Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1827C52A49EBFE00E74172 /* ColorSpinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSpinApp.swift; sourceTree = "<group>"; };
+		FF1827C72A49EBFE00E74172 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF1827C92A49EC0100E74172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF1827CC2A49EC0100E74172 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF1827D72A49ECAB00E74172 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1827BD2A49EBFE00E74172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF1827B32A49EBFE00E74172 = {
+			isa = PBXGroup;
+			children = (
+				FF1827C42A49EBFE00E74172 /* ColorSpin Watch App */,
+				FF1827BB2A49EBFE00E74172 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF1827BB2A49EBFE00E74172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1827BA2A49EBFE00E74172 /* ColorSpin.app */,
+				FF1827C02A49EBFE00E74172 /* ColorSpin Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1827C42A49EBFE00E74172 /* ColorSpin Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FF1827C52A49EBFE00E74172 /* ColorSpinApp.swift */,
+				FF1827C72A49EBFE00E74172 /* ContentView.swift */,
+				FF1827D72A49ECAB00E74172 /* GameScene.swift */,
+				FF1827C92A49EC0100E74172 /* Assets.xcassets */,
+				FF1827CB2A49EC0100E74172 /* Preview Content */,
+			);
+			path = "ColorSpin Watch App";
+			sourceTree = "<group>";
+		};
+		FF1827CB2A49EC0100E74172 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF1827CC2A49EC0100E74172 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1827B92A49EBFE00E74172 /* ColorSpin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1827D42A49EC0100E74172 /* Build configuration list for PBXNativeTarget "ColorSpin" */;
+			buildPhases = (
+				FF1827B82A49EBFE00E74172 /* Resources */,
+				FF1827D32A49EC0100E74172 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1827C32A49EBFE00E74172 /* PBXTargetDependency */,
+			);
+			name = ColorSpin;
+			productName = ColorSpin;
+			productReference = FF1827BA2A49EBFE00E74172 /* ColorSpin.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		FF1827BF2A49EBFE00E74172 /* ColorSpin Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1827D02A49EC0100E74172 /* Build configuration list for PBXNativeTarget "ColorSpin Watch App" */;
+			buildPhases = (
+				FF1827BC2A49EBFE00E74172 /* Sources */,
+				FF1827BD2A49EBFE00E74172 /* Frameworks */,
+				FF1827BE2A49EBFE00E74172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorSpin Watch App";
+			productName = "ColorSpin Watch App";
+			productReference = FF1827C02A49EBFE00E74172 /* ColorSpin Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF1827B42A49EBFE00E74172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FF1827B92A49EBFE00E74172 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FF1827BF2A49EBFE00E74172 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FF1827B72A49EBFE00E74172 /* Build configuration list for PBXProject "ColorSpin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF1827B32A49EBFE00E74172;
+			productRefGroup = FF1827BB2A49EBFE00E74172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF1827B92A49EBFE00E74172 /* ColorSpin */,
+				FF1827BF2A49EBFE00E74172 /* ColorSpin Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1827B82A49EBFE00E74172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1827BE2A49EBFE00E74172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1827CD2A49EC0100E74172 /* Preview Assets.xcassets in Resources */,
+				FF1827CA2A49EC0100E74172 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1827BC2A49EBFE00E74172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1827D82A49ECAB00E74172 /* GameScene.swift in Sources */,
+				FF1827C82A49EBFE00E74172 /* ContentView.swift in Sources */,
+				FF1827C62A49EBFE00E74172 /* ColorSpinApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF1827C32A49EBFE00E74172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1827BF2A49EBFE00E74172 /* ColorSpin Watch App */;
+			targetProxy = FF1827C22A49EBFE00E74172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF1827CE2A49EC0100E74172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF1827CF2A49EC0100E74172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FF1827D12A49EC0100E74172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorSpin Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ColorSpin;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brychczynski.ColorSpin.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		FF1827D22A49EC0100E74172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorSpin Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ColorSpin;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brychczynski.ColorSpin.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		FF1827D52A49EC0100E74172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				INFOPLIST_KEY_CFBundleDisplayName = ColorSpin;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brychczynski.ColorSpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF1827D62A49EC0100E74172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 747HSZD85Z;
+				INFOPLIST_KEY_CFBundleDisplayName = ColorSpin;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brychczynski.ColorSpin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1827B72A49EBFE00E74172 /* Build configuration list for PBXProject "ColorSpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1827CE2A49EC0100E74172 /* Debug */,
+				FF1827CF2A49EC0100E74172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1827D02A49EC0100E74172 /* Build configuration list for PBXNativeTarget "ColorSpin Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1827D12A49EC0100E74172 /* Debug */,
+				FF1827D22A49EC0100E74172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1827D42A49EC0100E74172 /* Build configuration list for PBXNativeTarget "ColorSpin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1827D52A49EC0100E74172 /* Debug */,
+				FF1827D62A49EC0100E74172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF1827B42A49EBFE00E74172 /* Project object */;
+}
